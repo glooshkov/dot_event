@@ -1,35 +1,36 @@
 # Проект SPA (Single Page Application)
 
-## <a name="about-project">О проекте</a>
-
-<img src="https://github.com/glooshkov/dot_event/blob/master/frontend/public/demo/logo.svg" align="center"
-     alt="logo by day of the event" width="20%">
-
-Данный проект представляет собой веб-приложение для ведущих мероприятий. 
-Оно позволяет пользователю:
-- создавать события и управлять ими,
-- просматривать список запланированных событий,
-- получать статистику по проделанной работе,
-- искать события в календаре, 
-- искать события по различным параметрам и многое другое...
-
-> [!IMPORTANT]  
-> Это коммерческий проект, над которым в данный момент продолжается работа. Данных репозиторий создан для демонстрации структуры и кода приложения. В приведённом репозитории скрыта часть файлов, также присутствуют пустые компоненты .vue (помечены как “Empty”).
-
-> [!TIP]  
-> Список доступных для просмотра компонентов .vue:
->
-> - [CreateEvent.vue](https://github.com/glooshkov/dot_event/blob/master/frontend/src/views/main/CreateEvent.vue) – компонент создания события/заявки
-> - [AboutEvent.vue](https://github.com/glooshkov/dot_event/blob/master/frontend/src/views/main/AboutEvent.vue) – компонент просмотра, управления и редактирования события/заявки
-> - [LogEvent.vue](https://github.com/glooshkov/dot_event/blob/master/frontend/src/views/main/LogEvent.vue) – журнал событий и заявок
-> - [methodGlobal.js](https://github.com/glooshkov/dot_event/blob/master/frontend/src/stores/methodGlobal.js) – глобальные методы компонентов 
-
 ## Оглавление
 
 1.	[О проекте](#about-project)
 2.	[Демонстрация пользовательского интерфейса](#demonstration)
 3.	[Стэк проекта](#stack-project)
 4.	[Процесс разработки](#development-process)
+
+## <a name="about-project">О проекте</a>
+
+<img src="https://github.com/glooshkov/dot_event/blob/master/frontend/public/demo/logo.svg" align="center"
+     alt="logo by day of the event" width="20%">
+
+Проект представляет собой сервис аналитики мероприятий для ведущих (мероприятий). 
+Функции сервиса предоставленные пользователю:
+- создание событий: создание мероприятия на выбранную дату, заполнение информации о планируемом мероприятии (время, место, формат и статус события, расписание, заметки, оплата и др.);
+- редактирование и управление событиями: изменение информации о выбранном мероприятии, изменение типа (заявка, либо событие) или удаление;
+- просматривать список с общей информацией о запланированных событиях или завках на выбранный год;
+- получать статистику по проделанной работе: просмотр аналитических графиков и параметров, относящихся к проведенным мероприятиям, для оценки достигнутых результатов и выявления областей для улучшения;
+- искать события в календаре;
+- искать события по различным параметрам и многое другое...
+
+> [!IMPORTANT]  
+> (Примечание для разработчиков) Это коммерческий проект, над которым в данный момент продолжается работа. Данных репозиторий создан для демонстрации структуры и кода приложения. В приведённом репозитории скрыта часть файлов, также присутствуют пустые компоненты .vue (помечены как “Empty”).
+
+> [!TIP]  
+> (Примечание для разработчиков) Список доступных для просмотра компонентов .vue:
+>
+> - [CreateEvent.vue](https://github.com/glooshkov/dot_event/blob/master/frontend/src/views/main/CreateEvent.vue) – компонент создания события/заявки
+> - [AboutEvent.vue](https://github.com/glooshkov/dot_event/blob/master/frontend/src/views/main/AboutEvent.vue) – компонент просмотра, управления и редактирования события/заявки
+> - [LogEvent.vue](https://github.com/glooshkov/dot_event/blob/master/frontend/src/views/main/LogEvent.vue) – журнал событий и заявок
+> - [methodGlobal.js](https://github.com/glooshkov/dot_event/blob/master/frontend/src/stores/methodGlobal.js) – глобальные методы компонентов 
 
 ## <a name="demonstration">Демонстрация пользовательского интерфейса</a>
 
